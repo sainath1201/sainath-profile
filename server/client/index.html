@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/all.min.js"></script>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>sainath</title>
+</head>
+<body>
+  <!--first page-->
+  <section class="hero background is-fullheight" id="remove_full">
+    <div class="hero-head">
+      <nav class="navbar" id="nav">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <p class="is-size-3 has-text-black" id="nav-text">
+                sainath
+              </p>
+            </a>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu" >
+            <div class="navbar-end">
+              <a class="navbar-item is-active" id="home">
+                Home
+              </a>
+              <a class="navbar-item is-active" id="skill">
+                Skills
+              </a>
+              <a class="navbar-item is-active" id="contact">
+                contact
+              </a>
+              <span class="navbar-item">
+                <a class="button is-info is-inverted" href="https://github.com/sainath1201" target="_blank"  >
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>my-github</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container_1  has-text-centered has-text-black" id="home_page">
+        <div class="saiprofile">
+          <figure class="images">
+            <img class="is-rounded" src="sai1.jpg">
+          </figure>
+          <p class="is-size-5">
+            <b>Hello,my name</b> 
+          </p>
+          <p class="is-size-1 name">
+            <b>SAINATH REDDY</b>
+          </p>
+          <p class="is-size-5">
+            <b>Web Designer</b>
+          </p>
+          <div style="padding: 1vh;">
+            <a href="sai.jpg" download>
+              <button class="button is-black">Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--second page-->
+  <section class="hero has-background-primary-light is-fullheight" id="skill_page">
+    <div class="total-skills" >
+      <div class=" has-text-centered is-size-1">
+        <p>
+          My Skills
+        </p>
+      </div>
+      <div class="container_2">
+        <div class="course is-size-3">
+          Html&Css
+        </div>
+        <div class="progress_bar">
+          <progress class="progress is-link" value="80" max="100"></progress>
+          80%
+        </div>
+      </div>
+      <div class="container_2">
+        <div class="course is-size-3">
+          JavaScript
+        </div>
+        <div class="progress_bar">
+          <progress class="progress is-link" value="70" max="100"></progress>
+          70%
+        </div>
+      </div>
+      <div class="container_2">
+        <div class="course is-size-3">
+          node.js
+        </div>
+        <div class="progress_bar">
+          <progress class="progress is-link" value="70" max="100"></progress>
+          70%
+        </div>
+      </div>
+      <div class="container_2">
+        <div class="course is-size-3">
+          python
+        </div>
+        <div class="progress_bar">
+          <progress class="progress is-link" value="60" max="100"></progress>
+          60%
+        </div>
+      </div>
+      <div class="container_2">
+        <div class="course is-size-3">
+          C
+        </div>
+        <div class="progress_bar">
+          <progress class="progress is-link" value="50" max="100"></progress>
+          50%
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--thrid page-->
+  <section class="hero has-background-warning-light is-fullheight" id="contact_page">  
+    <div class="con">
+      <div class="contact_img">
+        <img src="https://cdn.pixabay.com/photo/2016/07/17/18/23/contact-us-1524408__340.png" alt="contact">
+      </div>
+      <div class="container_3 ">
+        <p class="has-text-centered is-size-1">contact</p>
+        <form id="form" action="https://formspree.io/f/mpzkvprb" method="post" class="has-text-left">
+          <div class="field" id="fullname">
+            <label class="label">Name</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input " type="text" placeholder="" value="" name="Name">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+              <p class="help"></p>
+            </div>
+          </div>
+          <div class="field" id="phonenumber">
+            <label class="label">Phonenumber</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input " type="text" placeholder="" value="" name="Ph-number">
+              <span class="icon is-small is-left">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+              <p class="help"></p>
+            </div>
+          </div>
+    
+          <div class="field" id="email">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input " type="email" placeholder="" value="" name="email">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+              <p class="help"></p>
+            </div>
+          </div>
+          
+          <div class="field" id="msg">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea input" placeholder="Textarea" name="Message"></textarea>
+            </div>
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button type="submit" class="button is-link" id="submitButton">CatchUp</button>
+            </div>
+          </div>
+        </form>     
+      </div>  
+    </div>
+    <div class="has-text-centered social-profile">
+      <div class="is-size-5 has-text-black">
+        follow me :
+      </div>
+      <a href="" class="social-icons">
+        <i class="fab fa-facebook icon is-medium "></i>
+      </a>
+      <a href="" class="social-icons" >
+        <i class="fab fa-instagram icon is-medium "></i>
+      </a>
+      <a href="" class="social-icons">
+        <i class="fab fa-linkedin icon is-medium"></i>
+      </a>
+      <a href="mailto:sainathreddykotla47@gmail.com" class="social-icons">
+        <i class="far fa-envelope icon is-medium"></i>
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>

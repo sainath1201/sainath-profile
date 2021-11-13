@@ -1,0 +1,71 @@
+#nav-text{
+  font: italic 1.2em "Fira Sans", serif;
+}
+
+.saiprofile img {
+  margin-left: 0vh;
+  border-radius: 60%;
+  height: 300px;
+  width: 300px;
+}
+.saiprofile{
+  padding-top: 22vh;
+}
+.background{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCyaQq7YbuNOC5Un3gi29r_4BAp09HnyJB9A&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_1{
+  margin-bottom: 10%;
+}
+.container_2{
+  display: grid;
+  grid-template-areas: "course progres" ;
+  grid-template-columns: 200px 500px;
+  grid-template-rows: 80px auto ; 
+  column-gap: 10px;
+  row-gap: 15px;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-content: center;
+  padding-top: 2vh;
+}
+.course{
+  grid-area: course;
+  padding-left: 2.3vh;
+}
+.progress_bar{
+  grid-area: progres;
+  padding-top: 3vh;
+}
+.total-skills{
+  padding-top:10vh ;
+}
+.con {
+  display: grid;
+  grid-template-areas: "img contact";
+  padding-top: 5%;
+}
+.container_3 {
+  grid-area: contact;
+  padding-right: 20%;
+}
+.contact_img {
+  grid-area: img;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.contact_img img {
+  width: 350px;
+}
+#nav{
+  position: fixed;
+  width: 100%;
+}
+.social-profile {
+  padding: 3vh;
+}
+.social-icons{
+  padding: 1vh;
+}
